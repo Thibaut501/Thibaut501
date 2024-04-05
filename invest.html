@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Include jQuery -->
+    <script src="include.js"></script> <!-- Include the external script -->
+    <script src="chapter15/include.js"></script>
+    <title>Parent Float - Solution</title>
+    <style type="text/css">
+        /* CSS styles */
+        body {
+            width: 752px;
+            font-family: Arial, Verdana, sans-serif;
+            color: #665544;
+        }
+        
+        div {
+            border: 1px solid #665544;
+            overflow: auto;
+            width: 100%;
+        }
+        
+        p {
+            width: 230px;
+            float: left;
+            margin: 10px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        /* Navbar styles */
+       /* Navbar styles */
+#nav {
+    float: right;
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+    padding: 45px 0px 0px 0px;
+    text-align: right;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    display: inline-block;
+    padding: 0 10px; /* Adjust spacing between menu items */
+    text-decoration: none;
+    color: #000; /* Adjust text color */
+}
+
+#nav ul li a:hover {
+    background-color: #ddd; /* Adjust hover background color */
+}
+
+        
+        .dropdown {
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+            text-align: left; /* Adjust alignment of dropdown items */
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+		<h1></h1>
+		<div>
+            <h1>Property Development Scheme (PDS)</h1>
+            <p>Aim of Scheme</p>
+            <p>The scheme, replacing the IRS and RES, allows the development of a mix of residences for sale to non-citizens, citizens, and members of the Mauritian Diaspora.</p>
+            <p>Terms and Conditions</p>
+            <p>The Property Development Scheme provides for:</p>
+            <p>1. The development of luxurious residential units, on freehold land of an extent of at least 0.4220 hectare (1 arpent) but not exceeding 21.105 hectares (50 arpents).</p>
+            <p>2. The development of at least six (6) residential properties of high standing.</p>
+            <p>3. High quality public spaces that helps promote social interaction and a sense of community</p>
+            <p>4. High-class leisure, commercial amenities and facilities intended to enhance the residential units</p>
+            <p>5. Day-to-day management services to residents including security, maintenance, gardening, solid waste disposal and household services; and</p>
+            <p>6. Social contribution in terms of social amenities, community development and other facilities for the benefit of the community.</p>
+            <p>Eligibility Criteria</p>
+            <p>The following persons may acquire a residential property from a PDS Company:</p>
+            <p>(a) A natural person, whether a citizen of Mauritius, a non-citizen or a member of the Mauritian Diaspora</p>
+            <p>(b) A company incorporated or registered under the Companies Act</p>
+            <p>(c) A société, where its deed of formation is deposited with the Registrar of Companies</p>
+            <p>(d) A limited partnership under the Limited Partnerships Act</p>
+            <p>(e) A trust, where the trusteeship services are provided by a qualified trustee; or</p>
+            <p>(f) Foundation under the Foundations Act.</p>
+            <p>Type of Property</p>
+            <p>An IRS Company may provide the following type of residential properties:</p>
+            <p>• Luxury villa with attending services and amenities</p>
+            <p>• Luxury apartment with attending services and amenities</p>
+            <p>• Penthouse with attending services and amenities</p>
+            <p>• Other similar properties used, or available for use, as residence with attending services or amenities</p>
+            <p>Extent of Property</p>
+            <p>The extent of land in respect of each residential property, other than for an apartment or a penthouse, is developed on land not exceeding 5,176 square metres (1A25P) excluding common areas.</p>
+            <p>Cost of Property</p>
+            <p>There is no restriction on the minimum price for the acquisition of a residential property under PDS.</p>
+            <p>Commercial and Leisure Amenities</p>
+            <p>Under the Scheme, the promoters must make provisions for setting up of high-class leisure and commercial amenities and facilities intended to enhance the residential units and shall be accessible to the community.</p>
+            <p>Promoters should ensure to promote inclusiveness through high quality public spaces within the development.</p>
+            <p>The commercial/leisure component must be commensurate to the scale of the proposed development.</p>
+			<p>In 1817 Baron von Drais invented a walking machine that would help him get around the royal gardens faster.</p>
+			<p>The device know as the Draisienne (or "hobby horse") was made of wood, and propelled by pushing your feed on the ground in a gliding movement.</p>
+			<p>It was not seen a suitable for any place other than a well maintained pathway. </p>
+			<p class="clear">In 1865, the velocipede (meaning "fast foot") attached pedals to the front wheel, but its wooden structure made it extremely uncomfortable.</p>
+			<p>In 1870 the first all-metal machine appeared. The pedals were attached directly to the front wheel. 
+			<p>Solid rubber tires and the long spokes of the large front wheel provided a much smoother ride than its predecessor.</p>
+		</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <div id="footer"></div>
+	</body>
+</html>
